@@ -14,9 +14,9 @@ body {
 }
 
 img {
-  width: 100%;
+  width: 50%;
   height: auto;
-  margin-bottom: 30px;
+  margin: 0 auto 30px auto;
 }
 
 h1 {
