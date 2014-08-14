@@ -2,7 +2,7 @@
 
 1-day NodeConf in the center of Europe. Visit us and our Atomium building, it has the shape of a hexagon!
 
-The event is planned in February 2015. Exact date is to be decided. It will be held somewhere in Brussels.
+The event is planned to happen in February 2015. Exact date is to be decided. It will be held somewhere in Brussels.
 
 
 ## Talk proposals
