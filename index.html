@@ -12,19 +12,42 @@
     <div id="container">
       <div id="wrapper">
         <img src="logo.png" alt="One-shot brussels logo">
+
         <h1>Presenting</h1>
-        <p>a 1-day NodeConf in the center of Europe. Visit us and our <a href="https://www.google.be/search?q=atomium+hexagon&tbm=isch" rel="external" title="Atomium Building image search">Atomium</a> building, it has the shape of a hexagon!</p>
-        <p>Stay up to date: follow us on <a href="https://twitter.com/oneshotbrussels" rel="external" title="twitter account">twitter</a></p>
+        <p>
+          a 1-day NodeConf in the center of Europe. Visit us and our
+          <a href="https://www.google.be/search?q=atomium+hexagon&tbm=isch" rel="external" title="Atomium Building image search">Atomium</a>
+          building, it has the shape of a hexagon!
+        </p>
+
+        <h1>Propose</h1>
+        <p>
+          The source for this site can be found on
+          <a href="https://github.com/oneshotbrussels/oneshotbrussels.github.io" rel="external" title="website source">github</a>.
+          Talk proposals are welcome in the
+          <a href="https://github.com/oneshotbrussels/oneshotbrussels.github.io/issues" rel="external" title="talk proposals">issues</a> section
+        </p>
+
+        <h1>Twitter</h1>
+        <p>
+          Stay up to date: follow us on <a href="https://twitter.com/oneshotbrussels" rel="external" title="twitter account">twitter</a>
+        </p>
       </div>
     </div>
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      // Only run GA scripts when it is live.
+      var a = document.createElement("a");
+      a.href = document.URL;
+      
+      if (a.hostname === 'oneshotbrussels.github.io' || a.hostname === 'brussels.nodeconf.com') {
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-9732394-14', 'auto');
-      ga('send', 'pageview');
+        ga('create', 'UA-9732394-14', 'auto');
+        ga('send', 'pageview');
+      }
     </script>
   </body>
 </html>
